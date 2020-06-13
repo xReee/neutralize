@@ -3,10 +3,9 @@
   "version": "1.0",
   "description": "Uma extensão para auxiliar a escrita de textos não binarios",
   "manifest_version": 2,
-  "options_page": "options.html",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["script.js"],
     "persistent": false
   },
   "page_action": {
