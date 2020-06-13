@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <title>Neutralize</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      h3 {
-        margin: 5px;
-      }
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
-  </head>
-  <body">
-    <h3 id="title"> Neutralize </h3>
-    <button id="changeColor"></button>
-    <button id="changeColor"></button>
-    <script src="popup.js"></script>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@100">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Neutralize</title>
+  <style>
+    body {
+      font-size: 100%;
+      width: 400px; 
+    }
+    img {
+       float: left;
+       margin-left:1%;
+       height: 40px;
+       width: 40px;
+    }
+    #title {
+      font-family: 'Josefin Sans', sans-serif;
+      margin:0px;
+    }
+    #subtitle {
+      font-size: 10px;
+      margin:0px;
+    }
+    .heading {
+      border-bottom: 0.5px solid LightGray;
+      margin: 10px 0px 10px 0px;
+      width:100%;
+      height:auto;
+      padding-bottom: 20px;
+    }
+    button {
+      height: 30px;
+      width: 30px;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+     <div class = "heading">
+       <div>
+          <img src="images/get_started48.png">     
+       </div>
+        <div style='margin-left: 50px;'>
+          <p id="title"> Neutralize </p>
+          <p id="subtitle"> Uma extensão para auxiliar a escrita de textos não binarios.</p>
+        </div>  
+     </div>
+     <button id="changeColor"></button>
+     <button id="changeColor"></button>
+     <script src="popup.js"></script>
   </body>
-</html>
+</html>  
