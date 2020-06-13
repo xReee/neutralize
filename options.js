@@ -16,6 +16,7 @@ function constructOptions(kButtonColors) {
       })
     });
     page.appendChild(button);
+    console.log("dale")
   }
 }
 constructOptions(kButtonColors);
