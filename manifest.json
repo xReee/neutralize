@@ -2,5 +2,5 @@
   "name": "Neutralize",
   "version": "1.0",
   "description": "Uma extensão para auxiliar a escrita de textos não binarios",
-  "manifest_version": 1
+  "manifest_version": 2
 }
